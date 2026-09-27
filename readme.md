@@ -68,4 +68,4 @@ This confirms your code is free of syntax/type errors before you ever touch hard
 2. The main loop repeatedly: reads DHT11 temperature/humidity, measures water level via ultrasonic time-of-flight, samples turbidity/pH/DO via the 12-bit ADC (averaging 10 readings each for stability), applies the calibration formulas from the report to convert raw voltage into meaningful units, updates the LCD, and streams everything as JSON over UART3 to the ESP module (with a plain-text summary also sent over UART0 for PC monitoring).
 
 ## License
-This is your own original work from your internship — license it however you'd like (MIT is a common, permissive default if you're unsure).
+No license. All rights reserved by the organization.
